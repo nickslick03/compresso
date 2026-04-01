@@ -162,7 +162,7 @@ export default function App({
             className="flex gap-5 items-center"
           >
             <button
-              className="font-bold text-2xl cursor-pointer"
+              className="font-bold text-2xl cursor-pointer select-none"
               onClick={() => {
                 resetCompression();
                 setIndex((index == 0 ? photos[category].length : index) - 1);
@@ -174,7 +174,7 @@ export default function App({
               {index + 1} / {photos[category].length}
             </div>
             <button
-              className="font-bold text-2xl cursor-pointer"
+              className="font-bold text-2xl cursor-pointer select-none"
               onClick={() => {
                 resetCompression();
                 setIndex((index + 1 == photos[category].length ? -1 : index) + 1);
@@ -220,7 +220,7 @@ export default function App({
       </div>
 
       <footer className="text-center">
-        Made by <a href='https://nickslick03.github.io/compresso/' className="text-indigo-700">Nicholas Epps</a>
+        Made by <a href='https://github.com/nickslick03/compresso' className="text-indigo-700">Nicholas Epps</a>
       </footer>
     </div>
   );
