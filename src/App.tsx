@@ -4,7 +4,7 @@ const photos = {
   messiah_locations: [
     {
       name: 'Boyer',
-      url: 'https://www.messiah.edu/news/_images/pre2024/messiahuniversity_englecenter_2023_10_12__0005_cover.jpg'
+      url: 'https://raw.githubusercontent.com/nickslick03/compresso/refs/heads/main/photos/boyer.jpg'
     },
     {
       name: 'Witmer',
@@ -54,7 +54,7 @@ const photos = {
     },
     {
       name: 'Professor Lehman',
-      url: 'https://www.messiah.edu/dept-cmp/_images/faculty-profile-headshots/cindy-lehman.jpg'
+      url: 'https://raw.githubusercontent.com/nickslick03/compresso/refs/heads/main/photos/cindy-lehman.jpg'
     }
   ]
 }
